@@ -184,16 +184,6 @@ Offline first-launch → bundled JSON uses the same offline branch as disk-cache
 
 ---
 
-## Intentionally skipped
-
-Deferred so the core repository behaviour and flashcard loop stay clear for review:
-
-- Full VoiceOver audit (basic labels exist on the flip card)
-- Custom fonts (and licensing)
-- Background App Refresh / timed stale polling (launch-time fetch covers the brief)
-
----
-
 ## Project structure
 
 ```
