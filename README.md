@@ -194,19 +194,6 @@ Deferred so the core repository behaviour and flashcard loop stay clear for revi
 
 ---
 
-## AI usage disclosure
-
-This project was built with assistance from **Cursor** (AI coding agent).
-
-| AI-assisted | Human-directed |
-| --- | --- |
-| Xcode scaffolding, networking/cache/repository, SwiftUI UI, tests, README drafts | Requirements intake, architecture priorities, feature choices, submission review |
-| App icon generation | Demo recording and GitHub publication |
-
-Networking fallback rules, DI boundaries, and tests follow the written assignment specification.
-
----
-
 ## Project structure
 
 ```
