@@ -1,0 +1,1083 @@
+[
+  {
+    "tier": "Foundation",
+    "level": "Red",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "שלום",
+        "english": "hello (Red)"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      }
+    ]
+  },
+  {
+    "tier": "Foundation",
+    "level": "Orange",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "כן",
+        "english": "yes (Orange)"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      }
+    ]
+  },
+  {
+    "tier": "Foundation",
+    "level": "Pink",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "לחם",
+        "english": "bread (Pink)"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      }
+    ]
+  },
+  {
+    "tier": "Foundation",
+    "level": "Yellow",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "יום",
+        "english": "day (Yellow)"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      }
+    ]
+  },
+  {
+    "tier": "Flow",
+    "level": "Light Blue",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "אוכל",
+        "english": "food (Light Blue)"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      }
+    ]
+  },
+  {
+    "tier": "Flow",
+    "level": "Blue",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "עבודה",
+        "english": "work (Blue)"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      }
+    ]
+  },
+  {
+    "tier": "Flow",
+    "level": "Lime",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "עיר",
+        "english": "city (Lime)"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      }
+    ]
+  },
+  {
+    "tier": "Flow",
+    "level": "Green",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "תודה",
+        "english": "thank you (Green)"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Dark Green",
+    "type": 1,
+    "pairs": [
+      {
+        "hebrew": "לא",
+        "english": "no (Dark Green #1)"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Dark Green",
+    "type": 2,
+    "pairs": [
+      {
+        "hebrew": "בית",
+        "english": "house (Dark Green #2)"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Dark Green",
+    "type": 3,
+    "pairs": [
+      {
+        "hebrew": "לילה",
+        "english": "night (Dark Green #3)"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Dark Green",
+    "type": 4,
+    "pairs": [
+      {
+        "hebrew": "חבר",
+        "english": "friend (Dark Green #4)"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Turquoise",
+    "type": 1,
+    "pairs": [
+      {
+        "hebrew": "זמן",
+        "english": "time (Turquoise #1)"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Turquoise",
+    "type": 2,
+    "pairs": [
+      {
+        "hebrew": "ים",
+        "english": "sea (Turquoise #2)"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Turquoise",
+    "type": 3,
+    "pairs": [
+      {
+        "hebrew": "בבקשה",
+        "english": "please (Turquoise #3)"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Turquoise",
+    "type": 4,
+    "pairs": [
+      {
+        "hebrew": "מים",
+        "english": "water (Turquoise #4)"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Indigo",
+    "type": 1,
+    "pairs": [
+      {
+        "hebrew": "ספר",
+        "english": "book (Indigo #1)"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Indigo",
+    "type": 2,
+    "pairs": [
+      {
+        "hebrew": "אור",
+        "english": "light (Indigo #2)"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Indigo",
+    "type": 3,
+    "pairs": [
+      {
+        "hebrew": "משפחה",
+        "english": "family (Indigo #3)"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      },
+      {
+        "hebrew": "זמן",
+        "english": "time"
+      },
+      {
+        "hebrew": "דרך",
+        "english": "way"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Indigo",
+    "type": 4,
+    "pairs": [
+      {
+        "hebrew": "דרך",
+        "english": "way (Indigo #4)"
+      },
+      {
+        "hebrew": "עיר",
+        "english": "city"
+      },
+      {
+        "hebrew": "ים",
+        "english": "sea"
+      },
+      {
+        "hebrew": "שלום",
+        "english": "hello"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Indigo",
+    "type": 5,
+    "pairs": [
+      {
+        "hebrew": "שלום",
+        "english": "hello (Indigo #5)"
+      },
+      {
+        "hebrew": "תודה",
+        "english": "thank you"
+      },
+      {
+        "hebrew": "בבקשה",
+        "english": "please"
+      },
+      {
+        "hebrew": "כן",
+        "english": "yes"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Indigo",
+    "type": 6,
+    "pairs": [
+      {
+        "hebrew": "כן",
+        "english": "yes (Indigo #6)"
+      },
+      {
+        "hebrew": "לא",
+        "english": "no"
+      },
+      {
+        "hebrew": "מים",
+        "english": "water"
+      },
+      {
+        "hebrew": "לחם",
+        "english": "bread"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      }
+    ]
+  },
+  {
+    "tier": "Freedom",
+    "level": "Purple",
+    "type": null,
+    "pairs": [
+      {
+        "hebrew": "לחם",
+        "english": "bread (Purple)"
+      },
+      {
+        "hebrew": "בית",
+        "english": "house"
+      },
+      {
+        "hebrew": "ספר",
+        "english": "book"
+      },
+      {
+        "hebrew": "יום",
+        "english": "day"
+      },
+      {
+        "hebrew": "לילה",
+        "english": "night"
+      },
+      {
+        "hebrew": "אור",
+        "english": "light"
+      },
+      {
+        "hebrew": "אוכל",
+        "english": "food"
+      },
+      {
+        "hebrew": "חבר",
+        "english": "friend"
+      },
+      {
+        "hebrew": "משפחה",
+        "english": "family"
+      },
+      {
+        "hebrew": "עבודה",
+        "english": "work"
+      }
+    ]
+  }
+]

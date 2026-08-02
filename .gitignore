@@ -1,0 +1,22 @@
+# Xcode
+DerivedData/
+**/DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# App
+.DS_Store
+project_ids.json
+vocab-api.json
+vocab-tmp.json
+
+# SwiftPM
+.swiftpm/
+Package.resolved
