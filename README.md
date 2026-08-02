@@ -10,7 +10,7 @@ Cards follow the curriculum structure **Tier → Level → Type** (content packs
 
 **Demo Video URL:** _
 https://drive.google.com/file/d/1rW1qsBPN2I6zIL5QoVY_qOOdgnBKz9l0/view?usp=drive_link
-**Finish** 
+
 
 ---
 
