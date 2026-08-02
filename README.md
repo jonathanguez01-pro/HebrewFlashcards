@@ -1,4 +1,4 @@
-# Hebrew Flashcards
+# Flashcards App
 
 A native **SwiftUI** iOS app for studying Hebrew ↔ English vocabulary from [Citizen Café](https://citizencafetlv.com)’s public Citizen Hub API.
 
