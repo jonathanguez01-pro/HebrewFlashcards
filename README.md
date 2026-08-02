@@ -8,9 +8,9 @@ Cards follow the curriculum structure **Tier → Level → Type** (content packs
 
 ## Demo video
 
-**Demo Video URL:** _Add Loom / unlisted YouTube / file link before submission._
-
-Suggested recording flow (~60–90s): launch → select tier/level → flip a card → toggle speech → Next through to **Finish** → confetti completion.
+**Demo Video URL:** _
+https://drive.google.com/file/d/1rW1qsBPN2I6zIL5QoVY_qOOdgnBKz9l0/view?usp=drive_link
+**Finish** 
 
 ---
 
