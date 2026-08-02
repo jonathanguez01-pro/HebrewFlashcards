@@ -1,3 +1,12 @@
+//
+//  VocabLevel.swift
+//  HebrewFlashcards
+//
+//  Created by Jonathan Guez on 02/08/2026.
+//
+//  Codable level pack model and curriculum tier/level/type metadata.
+//
+
 import Foundation
 
 struct VocabLevel: Codable, Equatable, Identifiable, Sendable {

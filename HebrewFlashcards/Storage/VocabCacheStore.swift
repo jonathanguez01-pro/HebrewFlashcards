@@ -1,3 +1,12 @@
+//
+//  VocabCacheStore.swift
+//  HebrewFlashcards
+//
+//  Created by Jonathan Guez on 02/08/2026.
+//
+//  FileManager JSON cache in Application Support plus bundled fallback loader.
+//
+
 import Foundation
 
 protocol VocabCacheStoring: Sendable {
@@ -8,22 +17,16 @@ protocol VocabCacheStoring: Sendable {
 
 /// Persists the vocabulary JSON under Application Support so offline study
 /// survives OS cache pressure and device restores.
+///
+/// `FileManager` / `JSONEncoder` / `JSONDecoder` are not `Sendable`, so this
+/// type keeps only a `URL` and creates those helpers per call (Swift 6–safe).
 struct VocabCacheStore: VocabCacheStoring {
     private let fileURL: URL
-    private let fileManager: FileManager
-    private let encoder: JSONEncoder
-    private let decoder: JSONDecoder
 
     init(
         fileManager: FileManager = .default,
-        fileName: String = "vocab_cache.json",
-        encoder: JSONEncoder = JSONEncoder(),
-        decoder: JSONDecoder = JSONDecoder()
+        fileName: String = "vocab_cache.json"
     ) throws {
-        self.fileManager = fileManager
-        self.encoder = encoder
-        self.decoder = decoder
-
         let support = try fileManager.url(
             for: .applicationSupportDirectory,
             in: .userDomainMask,
@@ -38,24 +41,16 @@ struct VocabCacheStore: VocabCacheStoring {
     }
 
     /// Test-friendly initializer with an explicit file URL.
-    init(
-        fileURL: URL,
-        fileManager: FileManager = .default,
-        encoder: JSONEncoder = JSONEncoder(),
-        decoder: JSONDecoder = JSONDecoder()
-    ) {
+    init(fileURL: URL) {
         self.fileURL = fileURL
-        self.fileManager = fileManager
-        self.encoder = encoder
-        self.decoder = decoder
     }
 
     var hasCache: Bool {
-        fileManager.fileExists(atPath: fileURL.path)
+        FileManager.default.fileExists(atPath: fileURL.path)
     }
 
     func save(_ levels: [VocabLevel]) throws {
-        let data = try encoder.encode(levels)
+        let data = try JSONEncoder().encode(levels)
         try data.write(to: fileURL, options: .atomic)
     }
 
@@ -63,7 +58,7 @@ struct VocabCacheStore: VocabCacheStoring {
         guard hasCache else { throw VocabError.cacheMissing }
         let data = try Data(contentsOf: fileURL)
         do {
-            let levels = try decoder.decode([VocabLevel].self, from: data)
+            let levels = try JSONDecoder().decode([VocabLevel].self, from: data)
             guard !levels.isEmpty else { throw VocabError.emptyVocabulary }
             return levels
         } catch let error as VocabError {
@@ -79,27 +74,19 @@ protocol BundledVocabLoading: Sendable {
 }
 
 struct BundledVocabLoader: BundledVocabLoading {
-    private let bundle: Bundle
     private let resourceName: String
-    private let decoder: JSONDecoder
 
-    init(
-        bundle: Bundle = .main,
-        resourceName: String = "vocab_fallback",
-        decoder: JSONDecoder = JSONDecoder()
-    ) {
-        self.bundle = bundle
+    init(resourceName: String = "vocab_fallback") {
         self.resourceName = resourceName
-        self.decoder = decoder
     }
 
     func load() throws -> [VocabLevel] {
-        guard let url = bundle.url(forResource: resourceName, withExtension: "json") else {
+        guard let url = Bundle.main.url(forResource: resourceName, withExtension: "json") else {
             throw VocabError.bundledFallbackMissing
         }
         let data = try Data(contentsOf: url)
         do {
-            let levels = try decoder.decode([VocabLevel].self, from: data)
+            let levels = try JSONDecoder().decode([VocabLevel].self, from: data)
             guard !levels.isEmpty else { throw VocabError.emptyVocabulary }
             return levels
         } catch let error as VocabError {

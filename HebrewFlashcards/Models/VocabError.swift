@@ -1,3 +1,12 @@
+//
+//  VocabError.swift
+//  HebrewFlashcards
+//
+//  Created by Jonathan Guez on 02/08/2026.
+//
+//  Domain errors for networking, decoding, cache, and bundled fallback failures.
+//
+
 import Foundation
 
 enum VocabError: Error, LocalizedError, Equatable {

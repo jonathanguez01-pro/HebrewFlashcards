@@ -1,3 +1,12 @@
+//
+//  VocabRepositoryTests.swift
+//  HebrewFlashcards
+//
+//  Created by Jonathan Guez on 02/08/2026.
+//
+//  XCTest coverage for repository load paths and tier selection resets.
+//
+
 import XCTest
 @testable import HebrewFlashcards
 

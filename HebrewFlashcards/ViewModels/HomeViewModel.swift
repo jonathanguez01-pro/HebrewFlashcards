@@ -1,3 +1,12 @@
+//
+//  HomeViewModel.swift
+//  HebrewFlashcards
+//
+//  Created by Jonathan Guez on 02/08/2026.
+//
+//  Home screen state: load status, tier/level/type selection, and study path.
+//
+
 import Foundation
 import Combine
 
