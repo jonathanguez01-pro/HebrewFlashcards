@@ -42,7 +42,7 @@ struct SplashView: View {
                         .font(.title.weight(.bold))
                         .foregroundStyle(Brand.charcoal)
 
-                    Text("Hebrew Flashcards")
+                    Text("FlashcardsApp")
                         .font(.subheadline.weight(.medium))
                         .foregroundStyle(Brand.charcoal.opacity(0.65))
                 }
@@ -66,6 +66,6 @@ struct SplashView: View {
             .padding()
         }
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("Citizen Café Hebrew Flashcards")
+        .accessibilityLabel("FlashcardsApp")
     }
 }
